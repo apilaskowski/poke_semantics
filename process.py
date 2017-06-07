@@ -17,3 +17,6 @@ for i, type_defend in enumerate(types):
         types_strengths[(type_defend, type_attack)] = chart[i, j]
 
 
+pokemons = [line.strip() for line in open("pokemon.csv", "r")]
+
+print(pokemons)
